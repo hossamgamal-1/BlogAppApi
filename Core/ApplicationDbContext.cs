@@ -1,4 +1,4 @@
-﻿using BlogAppApi.Features.Blog.Models;
+﻿using BlogAppApi.Features.BlogFeature.Models;
 using BlogAppApi.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

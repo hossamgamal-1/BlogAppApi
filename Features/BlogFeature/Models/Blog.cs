@@ -1,7 +1,8 @@
 ﻿using BlogAppApi.Core;
+using BlogAppApi.Features.BlogFeature.Dtos;
 using System.ComponentModel.DataAnnotations;
 
-namespace BlogAppApi.Features.Blog.Models;
+namespace BlogAppApi.Features.BlogFeature.Models;
 
 public class Blog : BaseModel
 {
@@ -14,6 +15,9 @@ public class Blog : BaseModel
     public BlogStatus Status { get; set; }
 
     public ICollection<Post> Posts { get; set; } = [];
+
+    // FromDto method
+    public static Blog FromDto(BlogDto blogDto) => new() { Title = blogDto.Title };
 }
 
 public enum BlogStatus

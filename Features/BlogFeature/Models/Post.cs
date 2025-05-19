@@ -2,7 +2,7 @@
 using BlogAppApi.Models;
 using System.ComponentModel.DataAnnotations;
 
-namespace BlogAppApi.Features.Blog.Models;
+namespace BlogAppApi.Features.BlogFeature.Models;
 
 public class Post : BaseModel
 {

@@ -1,6 +1,6 @@
 ﻿using BlogAppApi.Models;
 
-namespace BlogAppApi.Features.Blog.Models;
+namespace BlogAppApi.Features.BlogFeature.Models;
 
 public class PostLike
 {

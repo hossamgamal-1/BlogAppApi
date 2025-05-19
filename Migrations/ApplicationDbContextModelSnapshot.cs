@@ -51,7 +51,7 @@ namespace BlogAppApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("BlogAppApi.Features.Blog.Models.Post", b =>
@@ -89,7 +89,7 @@ namespace BlogAppApi.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("Post");
+                    b.ToTable("Post", (string)null);
                 });
 
             modelBuilder.Entity("BlogAppApi.Features.Blog.Models.PostComment", b =>
@@ -132,7 +132,7 @@ namespace BlogAppApi.Migrations
 
                     b.HasIndex("PostId");
 
-                    b.ToTable("PostComment");
+                    b.ToTable("PostComment", (string)null);
                 });
 
             modelBuilder.Entity("BlogAppApi.Features.Blog.Models.PostLike", b =>
@@ -156,7 +156,7 @@ namespace BlogAppApi.Migrations
 
                     b.HasIndex("PostId");
 
-                    b.ToTable("PostLike");
+                    b.ToTable("PostLike", (string)null);
                 });
 
             modelBuilder.Entity("BlogAppApi.Models.AppUser", b =>

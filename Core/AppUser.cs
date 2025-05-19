@@ -1,5 +1,4 @@
 ﻿using BlogAppApi.Features.Auth.Dtos;
-using BlogAppApi.Features.Blog.Models;
 using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
